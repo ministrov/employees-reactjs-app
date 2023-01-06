@@ -6,6 +6,7 @@ import AppFilter from '../app-filter/app-filter';
 import './app.css';
 import EmployeesList from '../employees-list/employees-list';
 import EmployeesAddForm from '../employees-add-form/employees-add-form';
+import Header from '../header/header';
 
 class App extends Component {
   constructor(props) {
@@ -118,6 +119,8 @@ class App extends Component {
     const visibleData = this.filterPost(this.searchEmp(data, term), filter);
     return (
       <div className="app">
+        <Header/>
+
         <AppInfo employees={employees} increased={increased}/>
 
         <div className="search-panel">
