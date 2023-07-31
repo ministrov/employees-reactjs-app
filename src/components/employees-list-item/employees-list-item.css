@@ -8,6 +8,8 @@
 }
 
 .list-group-item span {
+  display: flex;
+  flex-basis: 120px;
   line-height: 35px;
   font-size: 20px;
   text-align: center;

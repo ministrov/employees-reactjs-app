@@ -16,7 +16,13 @@ class App extends Component {
         { name: 'John C.', salary: 300, increase: true, rise: true, id: 1},
         { name: 'Alex M.', salary: 3000, increase: false, rise: false, id: 2},
         { name: 'Walter B.', salary: 500, increase: false, rise: false, id: 3},
-        { name: 'James T.', salary: 1000, increase: false, rise: false, id: 4}
+        { name: 'James T.', salary: 1000, increase: false, rise: false, id: 4},
+        { name: 'Anton S.', salary: 5000, increase: true, rise: false, id: 5},
+        { name: 'Dilon S.', salary: 3400, increase: false, rise: false, id: 6},
+        { name: 'Brandon S.', salary: 2400, increase: false, rise: true, id: 7},
+        { name: 'Mike S.', salary: 1500, increase: true, rise: false, id: 8},
+        { name: 'Corton S.', salary: 3000, increase: true, rise: false, id: 9},
+        { name: 'Bi S.', salary: 2000, increase: true, rise: false, id: 10}
       ],
       term: '',
       filter: 'all'
